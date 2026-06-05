@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx next:*)",
+      "Bash(npm install:*)",
+      "Bash(npm outdated:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npx eslint:*)",
+      "Bash(grep -r \"@heroui/react\\\\|animate\\\\.css\\\\|canvas-confetti\\\\|framer-motion\\\\|iconify\\\\|@iconify/react\\\\|lucide-react\\\\|mongodb\\\\|mongoose\\\\|next-auth\\\\|payu-websdk\\\\|razorpay\\\\|react-icons\\\\|swiper\" '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --include=*.css)",
+      "Bash(grep -r @heroui/react '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r animate.css '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --include=*.css --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r canvas-confetti '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r framer-motion '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r iconify '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r @iconify/react '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r lucide-react '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r mongodb '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r mongoose '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r next-auth '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r payu-websdk '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r razorpay '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r react-icons '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r swiper '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r \"from ['''']react['''']\" '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r \"from ['''']react-dom['''']\" '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(grep -r \"from ['''']next\" '/c/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce' --include=*.tsx --include=*.ts --include=*.jsx --include=*.js --exclude-dir=node_modules --exclude-dir=.next)",
+      "Bash(rm -f types/payu-websdk.d.ts)",
+      "Bash(rm -f references.txt)",
+      "Bash(rm -f \"public/assets/images/partners/Our Partners.txt\")",
+      "Bash(rm -f app/components/UnderMaintenance.tsx)",
+      "Bash(rm -rf app/components/Others)",
+      "Bash(ls -d \"C:\\\\Users\\\\Arjun XPro\\\\Desktop\\\\agaramdev\\\\.claude\\\\worktrees\\\\relaxed-noyce/app\"/*/)",
+      "Bash(ls -d \"C:/Users/Arjun XPro/Desktop/agaramdev/.claude/worktrees/relaxed-noyce/app/\\(public\\)\"/*/)",
+      "Bash(npm run:*)",
+      "Bash(ls -la \"app/\\(public\\)/profile/\")",
+      "Bash(cat \"app/\\(public\\)/profile/page.tsx\")"
+    ]
+  }
+}

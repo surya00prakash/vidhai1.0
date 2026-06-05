@@ -1,0 +1,42 @@
+{
+  "name": "agaramweb",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@heroui/react": "^2.8.10",
+    "animate.css": "^4.1.1",
+    "canvas-confetti": "^1.9.3",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^0.577.0",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.3.1",
+    "next": "^16.2.0",
+    "razorpay": "^2.9.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-icons": "^5.6.0",
+    "swiper": "^12.1.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^20.19.37",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "^10.0.3",
+    "eslint-config-next": "^16.2.0",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
+  }
+}

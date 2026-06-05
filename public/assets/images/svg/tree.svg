@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ground Shadow -->
+  <ellipse cx="150" cy="270" rx="90" ry="12" fill="#7E7E7E" fill-opacity="0.2" />
+
+  <!-- Tree Trunk with circuits -->
+  <rect x="140" y="150" width="20" height="110" rx="4" fill="#6D4C41" />
+  <line x1="145" y1="155" x2="145" y2="255" stroke="#00E676" stroke-width="1.5" />
+  <line x1="155" y1="160" x2="155" y2="250" stroke="#00E676" stroke-width="1" stroke-dasharray="4 2" />
+
+  <!-- Mechanical root extensions -->
+  <path d="M140 260 C120 265, 120 275, 130 280" stroke="#8D8D8D" stroke-width="2" />
+  <path d="M160 260 C180 265, 180 275, 170 280" stroke="#8D8D8D" stroke-width="2" />
+  <circle cx="130" cy="280" r="3" fill="#00E5FF" />
+  <circle cx="170" cy="280" r="3" fill="#00E5FF" />
+
+  <!-- Main Canopy (Cyborg Leaves) -->
+  <circle cx="150" cy="110" r="50" fill="url(#cyborgGreen)" />
+  <circle cx="110" cy="130" r="35" fill="url(#leafL)" />
+  <circle cx="190" cy="130" r="35" fill="url(#leafR)" />
+  <circle cx="130" cy="85" r="30" fill="url(#frontL)" />
+  <circle cx="170" cy="85" r="30" fill="url(#frontR)" />
+
+  <!-- Nodes & Circuits on Leaves -->
+  <circle cx="150" cy="90" r="4" fill="#00E5FF" />
+  <circle cx="125" cy="105" r="3" fill="#00E5FF" />
+  <circle cx="175" cy="105" r="3" fill="#00E5FF" />
+  <line x1="150" y1="90" x2="125" y2="105" stroke="#00E5FF" stroke-width="1" />
+  <line x1="150" y1="90" x2="175" y2="105" stroke="#00E5FF" stroke-width="1" />
+
+  <!-- Gradient Definitions -->
+  <defs>
+    <radialGradient id="cyborgGreen" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#00E676" />
+      <stop offset="100%" stop-color="#43A047" />
+    </radialGradient>
+    <radialGradient id="leafL" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#66BB6A" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </radialGradient>
+    <radialGradient id="leafR" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#66BB6A" />
+      <stop offset="100%" stop-color="#1B5E20" />
+    </radialGradient>
+    <radialGradient id="frontL" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#81C784" />
+      <stop offset="100%" stop-color="#388E3C" />
+    </radialGradient>
+    <radialGradient id="frontR" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#81C784" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </radialGradient>
+  </defs>
+
+</svg>

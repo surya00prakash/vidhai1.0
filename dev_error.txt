@@ -1,0 +1,53 @@
+﻿
+> agaramweb@0.1.0 dev
+> next dev
+
+node.exe : ??Port 
+3000 is in use by 
+process 28912, using 
+available port 3001 
+instead.
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (??Port    
+ 3000 is ...t 300    
+1 instead.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+??`images.domains` 
+is deprecated in 
+favor of `images.remo
+tePatterns`. Please 
+update 
+next.config.ts to 
+protect your 
+application from 
+malicious users.
+??Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.56.1:3001
+- Environments: .env
+
+??Starting...
+漼?Unable to acquire 
+lock at C:\Users\Leno
+vo\Desktop\agaramweb\
+.next\dev\lock, is 
+another instance of 
+next dev running?
+  Suggestion: If you intended to restart next dev, terminate the other process, and then try again.
+[?25h

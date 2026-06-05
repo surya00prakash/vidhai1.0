@@ -1,0 +1,34 @@
+[93m[4mUnused files[24m[39m (14)
+data/DonationConst.ts                           
+lib/db.ts                                       
+models/Donation.ts                              
+types/DonationTypes.ts                          
+lib/auth/refreshAgaram.ts                       
+app/components/donations/DonationCard.tsx       
+app/components/donations/DonationGrid.tsx       
+app/components/donations/DonationSection.tsx    
+app/components/donations/KnowMoreModal.tsx      
+app/components/donations/MonthlyPaymentModal.tsx
+app/components/donations/SponsorshipSelector.tsx
+app/components/donations/SubscriptionSuccess.tsx
+app/components/donations/SummaryBar.tsx         
+app/components/Others/GrowTree.tsx              
+[93m[4mUnused dependencies[24m[39m (5)
+@prisma/client  package.json:13:6
+iconify         package.json:17:6
+next-auth       package.json:22:6
+payu-websdk     package.json:23:6
+pg              package.json:24:6
+[93m[4mUnused devDependencies[24m[39m (2)
+@types/pg  package.json:36:6
+prisma     package.json:41:6
+[93m[4mUnlisted dependencies[24m[39m (4)
+postcss  postcss.config.mjs                        
+axios    app/api/payments/list/route.ts:3:20       
+axios    app/api/payments/transaction/route.ts:3:20
+axios    app/api/user/profile/route.ts:3:20        
+[93m[4mUnused exported types[24m[39m (4)
+IEnquiry                  interface  models/Enquiry.ts:3:18                                  
+RazorpayInstance          interface  hooks/useRazorpay.ts:48:18                              
+TokenDetails           T  interface  types/agaram.types.ts:346:18                            
+InfiniteCarouselProps     interface  app/components/partners/PartnersCollegeCarousal.tsx:7:18
