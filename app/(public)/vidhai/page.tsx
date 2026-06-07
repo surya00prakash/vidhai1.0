@@ -48,7 +48,7 @@ const cardsData = [
     id: 2,
     title: "Our Mission:",
     subtitle:
-      "Strive to bridge the gap between deserving candidates and quality education, and build a generation of responsible youth with commitment to society.",
+      "Strive to bridge the gap between deserving candidates and quality education and  build a generation of responsible youth with commitment to society.",
     image:
       "https://img.studioflicks.com/wp-content/uploads/2024/08/11211044/Agaram-Foundation-45th-Year-Award-Ceremony-HQ-Stills-28.jpg",
   },

@@ -15,7 +15,7 @@ export default function MissionLayoutClient({ children }: { children: ReactNode 
                         Our Mission
                     </h1>
                     <p className="text-white text-base sm:text-lg lg:text-xl">
-                        Strive to bridge the gap between deserving students and quality education. Build a new generation of responsible youth with education, values, commitment and dedication to society.
+                        Strive to bridge the gap between deserving students and quality education. Build a new generation of responsible youth with education, values, commitment & dedication to society.
                     </p>
                 </div>
             </section>
