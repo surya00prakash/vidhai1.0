@@ -1,8 +1,11 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+// @ts-ignore: CSS module declarations unavailable
 import "swiper/swiper-bundle.css";
+// @ts-ignore: CSS module declarations unavailable
 import "swiper/css";
+// @ts-ignore: CSS module declarations unavailable
 import "swiper/css/pagination";
 import "animate.css";
 import Image from "next/image";
