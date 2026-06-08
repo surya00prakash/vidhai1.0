@@ -341,7 +341,7 @@ export default function Home() {
               ["95K+", "Applications"],
               ["6400+", "Students"],
               ["83%", "First Generation"],
-              ["10%", "Orphaned"],
+              ["10%", "No parents"],
             ].map((item, index) => (
               <motion.div
                 key={index}
@@ -385,7 +385,7 @@ export default function Home() {
                   <div className="mt-10 space-y-8">
                     {[
                       { label: "First Generation", pct: "83%" },
-                      { label: "Orphaned",         pct: "10%" },
+                      { label: "No parents",         pct: "10%" },
                       { label: "Single Parent",    pct: "34%" },
                     ].map((bar) => (
                       <div key={bar.label}>
